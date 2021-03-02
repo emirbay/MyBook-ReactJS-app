@@ -8,7 +8,7 @@ const app = express();
 const user = require('./routes/user');
 const books = require('./routes/books');
 
-mongoose.connect('config.DATABASE', {
+mongoose.connect(config.DATABASE, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
