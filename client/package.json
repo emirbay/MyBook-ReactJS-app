@@ -1,0 +1,57 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.6.0",
+    "axios": "^0.21.1",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "formik": "^2.2.6",
+    "html-to-draftjs": "^1.5.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-cookies": "^0.1.1",
+    "react-dom": "^17.0.1",
+    "react-draft-wysiwyg": "^1.14.5",
+    "react-fontawesome": "^1.7.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-simple-sidenav": "^2.0.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-promise": "^0.6.0",
+    "web-vitals": "^0.2.4",
+    "yap": "0.0.2",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
