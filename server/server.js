@@ -18,20 +18,17 @@ mongoose.connect('config.DATABASE', {
 // MIDDLEWARE
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.use('/api/users',user);   // dakle post za registraciju ide na /api/users/register
+app.use('/api/users',user);   // registration url /api/users/register
 app.use('/api/books',books);
-// app.post('/api/user', (req,res)=>{
-//   console.log(user)
-// });
 
 app.use(express.static('client/build'));
 
 //setup for PROD
-if (process.env.NODE_ENV === 'production') {
+if(process.env.NODE_ENV === 'production'){
     const path = require('path');
-    app.get('/*',(req,res)=> {
-        console.log('IT Works');
-        res.sendFile(path.resolve(__dirname,'../client','build','index.html'))
+    app.get('/*',(req,res)=>{
+        console.log('Works');
+        res.sendFile(path.resolve(__dirname,'../client','build','index.html'));
     })
 }
 
