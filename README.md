@@ -45,9 +45,10 @@ using Postman or any other API tool. Request body:
 ### Used libraries
 
 * JWT 
-*redux
-*mongoose
-*axios
+* redux
+* mongoose
+* axios
+...
 
 
 ### Live demo
