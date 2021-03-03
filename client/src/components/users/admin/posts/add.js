@@ -163,13 +163,14 @@ import {addBook, clearBook}  from '../../../../store/actions/book_actions'
                         {
                             this.state.success ? 
                             <div className="success_entry">
-                                <div> Successfully added book
+                                <div> Successfully added book</div>
                                 <Link to={`/article/${this.props.books.add.bookId}`}>
                                     Check book details
                                 </Link>
-                                </div>
+                            <br/>
                             </div>
                             :null
+
                         }
 
 

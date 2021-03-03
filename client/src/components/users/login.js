@@ -55,7 +55,7 @@ class Login extends Component {
                                 : null
                             }
             <Formik
-            initialValues={{email: 'emirbayric@gmail.com', password:'test123'}}
+            initialValues={{email: 'emirba@mail.com', password:'test123'}}
             validationSchema={LoginSchema}
             onSubmit={values => {
                // console.log(values);
