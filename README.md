@@ -17,9 +17,10 @@ Open root project directory using terminal/cmd:
 
 `npm install` to install client  
 
-Back to root
 
-### `Run`
+### Run
+
+Back to root
 
 `npm run dev`
 
